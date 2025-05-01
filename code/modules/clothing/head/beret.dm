@@ -229,3 +229,14 @@
 	icon_state = "beret_solgovcelite"
 	item_color = "solgovcelite"
 	resistance_flags = FIRE_PROOF
+
+/obj/item/clothing/head/beret/mining
+	name = "mining beret"
+	desc = "An ash grey beret with a purple insignia emblazoned on it. Won't help you against the atmosphere of the planet, but will look stylish."
+	icon_state = "beret_mining"
+	item_color = "beret_mining"
+	sprite_sheets = list(
+		"Vox" = 'icons/mob/clothing/species/vox/head/beret.dmi',
+		"Drask" = 'icons/mob/clothing/species/drask/head/beret.dmi',
+		"Kidan" = 'icons/mob/clothing/species/kidan/head/beret.dmi'
+	)

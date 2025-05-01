@@ -89,3 +89,8 @@
 	name = "TrainDrobe Supply Crate"
 	contains = list(/obj/item/vending_refill/traindrobe)
 	containername = "traindrobe supply crate"
+
+/datum/supply_packs/vending/trainer
+	name = "MineDrobe Supply Crate"
+	contains = list(/obj/item/vending_refill/minedrobe)
+	containername = "minedrobe supply crate"

@@ -308,3 +308,7 @@
 /datum/dog_fashion/head/smith
 	name = "Metalworker REAL_NAME"
 	desc = "Whatever you do, don't let them hold the hot metal in their mouth."
+
+/datum/dog_fashion/head/miningsoft
+	name = "Spelunker REAL_NAME"
+	desc = "Legions are just like a walking chew toys for him."

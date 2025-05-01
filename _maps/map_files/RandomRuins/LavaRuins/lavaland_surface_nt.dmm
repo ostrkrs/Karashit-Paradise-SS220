@@ -6542,8 +6542,8 @@
 	},
 /area/mine/outpost/hallway/west)
 "KC" = (
-/obj/structure/closet/secure_closet/miner,
 /obj/machinery/firealarm/directional/north,
+/obj/machinery/economy/vending/minedrobe,
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "darkfull"

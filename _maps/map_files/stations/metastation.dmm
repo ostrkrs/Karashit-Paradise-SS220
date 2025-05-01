@@ -12756,11 +12756,11 @@
 /turf/simulated/floor/plasteel,
 /area/station/hallway/secondary/entry/south)
 "bfn" = (
-/obj/structure/closet/emcloset,
 /obj/machinery/firealarm/directional/east,
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/machinery/economy/vending/minedrobe,
 /turf/simulated/floor/plasteel{
 	icon_state = "brown"
 	},

@@ -14413,9 +14413,8 @@
 	},
 /area/station/maintenance/fsmaint)
 "bgW" = (
-/obj/effect/turf_decal/delivery/hollow,
-/obj/structure/closet/secure_closet/miner,
 /obj/machinery/alarm/directional/north,
+/obj/machinery/economy/vending/minedrobe,
 /turf/simulated/floor/plasteel{
 	dir = 5;
 	icon_state = "brown"

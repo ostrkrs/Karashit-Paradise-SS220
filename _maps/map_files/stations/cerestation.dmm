@@ -93166,6 +93166,10 @@
 	icon_state = "asteroidplating"
 	},
 /area/station/maintenance/fore)
+"tHa" = (
+/obj/machinery/economy/vending/minedrobe,
+/turf/simulated/floor/plasteel,
+/area/station/supply/miningdock)
 "tHj" = (
 /obj/structure/cable/orange{
 	icon_state = "1-4"
@@ -96630,6 +96634,10 @@
 /obj/effect/landmark/start/security_officer,
 /turf/simulated/floor/plasteel,
 /area/station/security/main)
+"uxC" = (
+/obj/structure/closet/wardrobe/miner,
+/turf/simulated/floor/plasteel,
+/area/station/supply/miningdock)
 "uxD" = (
 /obj/structure/disposalpipe/segment/corner{
 	dir = 1
@@ -167370,7 +167378,7 @@ wQk
 sZY
 rcT
 aZt
-aGC
+uxC
 eCW
 mdl
 mdl
@@ -167627,7 +167635,7 @@ pJm
 fcm
 mjZ
 aZt
-aGC
+tHa
 aIB
 dEV
 rDv

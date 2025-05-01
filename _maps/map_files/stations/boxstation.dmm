@@ -33453,7 +33453,7 @@
 /area/station/supply/smith_office)
 "cqG" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/wardrobe/miner,
+/obj/structure/closet/secure_closet/miner,
 /turf/simulated/floor/plasteel{
 	dir = 6;
 	icon_state = "brown"
@@ -76576,7 +76576,7 @@
 /area/station/maintenance/fore)
 "sou" = (
 /obj/machinery/light,
-/obj/structure/closet/secure_closet/miner,
+/obj/machinery/economy/vending/minedrobe,
 /turf/simulated/floor/plasteel{
 	icon_state = "brown"
 	},

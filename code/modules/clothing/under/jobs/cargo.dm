@@ -77,13 +77,28 @@
 
 /obj/item/clothing/under/rank/cargo/miner
 	name = "shaft miner's jumpsuit"
-	desc = "It's a snappy jumpsuit with a sturdy set of overalls. It is very dirty."
+	desc = "It's a snappy jumpsuit, designed specifically to withstand the harsh conditions of Lavaland. It is very dirty."
 	icon_state = "miner"
 	item_state = "miner"
 	item_color = "miner"
 
+/obj/item/clothing/under/rank/cargo/miner/skirt
+	name = "shaft miner's jumpskirt"
+	desc = "It's a snappy jumpskirt, designed specifically to withstand the harsh conditions of Lavaland while keeping your beautiness. It is very dirty."
+	icon_state = "miner_skirt"
+	item_state = "miner_skirt"
+	item_color = "miner_skirt"
+
+/obj/item/clothing/under/rank/cargo/miner/overalls
+	name = "shaft miner's overalls"
+	desc = "It's an ash grey turtleneck with a sturdy set of overalls. Sadly, doesn't have any pockets to carry extra sandwiches. It is very dirty."
+	icon_state = "miner_overalls"
+	item_state = "miner_overalls"
+	item_color = "miner_overalls"
+
 /obj/item/clothing/under/rank/cargo/miner/lavaland
-	desc = "A green uniform for operating in hazardous environments."
+	name = "shaft miner's harshsuit"
+	desc = "An ash grey uniform with some padded armour for operating in hazardous environments."
 	icon_state = "explorer"
 	item_state = "explorer"
 	item_color = "explorer"
