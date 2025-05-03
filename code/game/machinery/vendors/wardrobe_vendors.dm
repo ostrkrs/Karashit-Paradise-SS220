@@ -643,10 +643,9 @@
 	ads_list = list("Not guaranteed to protect the user from the hot ash storms and lava. We are not liable!")
 
 	vend_reply = "Aye, thanks for using the MineDrobe, lad!"
-	products = list(/obj/item/clothing/under/rank/cargo/miner = 3,
-				/obj/item/clothing/under/rank/cargo/miner/skirt = 3,
-				/obj/item/clothing/under/rank/cargo/miner/overalls = 3,
+	products = list(/obj/item/clothing/under/rank/cargo/miner/lavaland/overalls = 3,
 				/obj/item/clothing/under/rank/cargo/miner/lavaland = 3,
+				/obj/item/clothing/under/rank/cargo/miner/lavaland/skirt = 3,
 				/obj/item/clothing/head/soft/mining = 3,
 				/obj/item/clothing/head/beret/mining = 3,
 				/obj/item/clothing/suit/jacket/bomber/mining = 3,
@@ -663,10 +662,9 @@
 
 	contraband = list(/obj/item/toy/figure/crew/miner = 1)
 
-	prices = list(/obj/item/clothing/under/rank/cargo/miner = 50,
-				/obj/item/clothing/under/rank/cargo/miner/skirt = 50,
-				/obj/item/clothing/under/rank/cargo/miner/overalls = 50,
+	prices = list(/obj/item/clothing/under/rank/cargo/miner/lavaland/overalls = 50,
 				/obj/item/clothing/under/rank/cargo/miner/lavaland = 50,
+				/obj/item/clothing/under/rank/cargo/miner/lavaland/skirt = 50,
 				/obj/item/clothing/head/soft/mining = 20,
 				/obj/item/clothing/head/beret/mining = 20,
 				/obj/item/clothing/suit/jacket/bomber/mining = 75,

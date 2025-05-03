@@ -275,6 +275,11 @@
 	path = /obj/item/clothing/under/rank/cargo/tech/skirt
 	allowed_roles = list("Quartermaster","Cargo Technician")
 
+/datum/gear/uniform/skirt/job/mining
+	display_name = "Skirt, mining"
+	path = /obj/item/clothing/under/rank/cargo/miner/lavaland/skirt
+	allowed_roles = list("Quartermaster","Shaft Miner")
+
 /datum/gear/uniform/skirt/job/expedition
 	display_name = "Skirt, expedition"
 	path = /obj/item/clothing/under/rank/cargo/expedition/skirt
@@ -373,6 +378,11 @@
 	display_name = "Overalls, cargo tech"
 	path = /obj/item/clothing/under/rank/cargo/tech/overalls
 	allowed_roles = list("Quartermaster", "Cargo Technician")
+
+/datum/gear/uniform/overalls/job/mining
+	display_name = "Overalls, shaft miner"
+	path = /obj/item/clothing/under/rank/cargo/miner/lavaland/overalls
+	allowed_roles = list("Quartermaster", "Shaft Miner")
 
 /datum/gear/uniform/overalls/job/expedition
 	display_name = "Overalls, expedition"
