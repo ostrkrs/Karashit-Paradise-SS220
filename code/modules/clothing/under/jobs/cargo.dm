@@ -106,9 +106,9 @@
 /obj/item/clothing/under/rank/cargo/miner/lavaland/overalls
 	name = "shaft miner's overalls"
 	desc = "It's an ash grey turtleneck with a sturdy set of overalls. Sadly, doesn't have any pockets to carry extra sandwiches. It is very dirty."
-	icon_state = "miner_overalls"
-	item_state = "miner_overalls"
-	item_color = "miner_overalls"
+	icon_state = "explorer_overalls"
+	item_state = "explorer_overalls"
+	item_color = "explorer_overalls"
 
 /obj/item/clothing/under/rank/cargo/expedition
 	name = "expedition jumpsuit"
