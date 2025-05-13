@@ -175,7 +175,6 @@
 /obj/effect/decal/cleanable/blood/tracks/mapped{
 	dir = 8
 	},
-/obj/structure/barricade/wooden,
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
 	},
@@ -351,6 +350,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/universal{
 	dir = 4
 	},
+/obj/structure/barricade/wooden,
 /turf/simulated/floor/plasteel,
 /area/shuttle/abandoned)
 "io" = (
@@ -408,11 +408,12 @@
 	},
 /area/shuttle/abandoned)
 "iX" = (
-/obj/machinery/door/airlock/welded{
-	id_tag = "whiteshuttletoilet"
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/door/airlock/bathroom{
+	id_tag = "whiteshuttletoilet"
+	},
+/obj/effect/mapping_helpers/airlock/welded,
 /turf/simulated/floor/plasteel{
 	icon_state = "freezerfloor"
 	},
@@ -958,6 +959,18 @@
 	icon_state = "dark"
 	},
 /area/shuttle/abandoned)
+"zk" = (
+/obj/structure/table/tray,
+/obj/item/storage/firstaid/surgery{
+	pixel_y = 8
+	},
+/obj/item/clothing/mask/surgical,
+/obj/item/clothing/gloves/color/latex/nitrile,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel{
+	icon_state = "barber"
+	},
+/area/shuttle/abandoned)
 "zl" = (
 /obj/machinery/recharger/wallcharger{
 	pixel_y = 32
@@ -1112,6 +1125,12 @@
 	icon_state = "darkbluefull"
 	},
 /area/shuttle/abandoned)
+"DC" = (
+/obj/structure/sign/poster/official/nanotrasen_logo/directional/north,
+/turf/simulated/floor/plasteel{
+	icon_state = "barber"
+	},
+/area/shuttle/abandoned)
 "DF" = (
 /obj/machinery/economy/vending/medical,
 /turf/simulated/floor/plasteel{
@@ -1196,12 +1215,12 @@
 /turf/template_noop,
 /area/space)
 "FZ" = (
-/obj/structure/closet/firecloset,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small/directional/west,
 /obj/structure/sign/lifestar{
 	pixel_x = -32
 	},
+/obj/structure/closet/walllocker/firelocker/north,
 /turf/simulated/floor/plasteel{
 	dir = 9;
 	icon_state = "darkblue"
@@ -1391,7 +1410,6 @@
 	},
 /area/shuttle/abandoned)
 "KE" = (
-/obj/machinery/iv_drip,
 /obj/machinery/light_construct/directional/south,
 /turf/simulated/floor/plasteel{
 	icon_state = "barber"
@@ -1506,11 +1524,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
-/obj/machinery/door/airlock/command{
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/machinery/door/airlock/command/cmo{
 	id_tag = "whiteshipbridgeairlock";
 	name = "Medical Shuttle Bridge airlock"
 	},
-/obj/effect/mapping_helpers/airlock/locked,
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "darkbluefull"
@@ -1589,19 +1607,12 @@
 	},
 /area/shuttle/abandoned)
 "Qh" = (
-/obj/structure/table/tray,
-/obj/item/clothing/gloves/color/latex/nitrile,
-/obj/item/clothing/mask/surgical,
 /obj/machinery/atmospherics/unary/vent_scrubber{
 	name = "standard air scrubber";
 	on = 1;
 	scrub_N2O = 1;
 	scrub_Toxins = 1
 	},
-/obj/item/storage/firstaid/surgery{
-	pixel_y = 8
-	},
-/obj/structure/sign/poster/official/nanotrasen_logo/directional/north,
 /turf/simulated/floor/plasteel{
 	icon_state = "barber"
 	},
@@ -1707,6 +1718,13 @@
 	icon_state = "dark"
 	},
 /area/shuttle/abandoned)
+"RS" = (
+/obj/structure/closet/l3closet,
+/obj/item/clothing/mask/gas,
+/turf/simulated/floor/plasteel{
+	icon_state = "barber"
+	},
+/area/shuttle/abandoned)
 "RT" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/external{
@@ -1771,8 +1789,7 @@
 /obj/machinery/atmospherics/unary/passive_vent{
 	dir = 1
 	},
-/obj/structure/closet/l3closet,
-/obj/item/clothing/mask/gas,
+/obj/machinery/iv_drip,
 /turf/simulated/floor/plasteel{
 	icon_state = "barber"
 	},
@@ -2263,13 +2280,13 @@ Bm
 Bm
 Bm
 aA
-Ts
+aA
 Zr
 Ts
 Bm
 Ts
 rC
-Ts
+aA
 aA
 Bm
 Bm
@@ -2300,7 +2317,7 @@ Bm
 Bm
 Bm
 aA
-Ts
+aA
 XS
 af
 Ts
@@ -2308,7 +2325,7 @@ Bm
 Ts
 bT
 FA
-Ts
+aA
 aA
 Bm
 Bm
@@ -2318,7 +2335,7 @@ Bm
 Bm
 Bm
 Ts
-Ts
+aA
 xf
 vo
 DH
@@ -2328,7 +2345,7 @@ Ts
 Fw
 Ll
 Rw
-Ts
+aA
 Ts
 Bm
 Bm
@@ -2356,17 +2373,17 @@ Bm
 Bm
 ZB
 Ts
-Ts
-Ts
+aA
+aA
 jD
-Ts
-Ts
+aA
+aA
 IC
-Ts
-Ts
+aA
+aA
 ik
-Ts
-Ts
+aA
+aA
 Ts
 RZ
 Bm
@@ -2374,8 +2391,8 @@ Bm
 (15,1,1) = {"
 Bm
 aA
-Ts
-Ts
+aA
+DC
 io
 Ck
 Ep
@@ -2385,28 +2402,28 @@ Ci
 xx
 ic
 dm
-Ts
-Ts
+YY
+aA
 aA
 Bm
 "}
 (16,1,1) = {"
 Bm
-aA
-Ts
+nb
+zk
 Qh
 QF
 Ss
-Ts
+aA
 CR
 po
 gc
-Ts
+aA
 vt
 NI
-YY
-aA
-aA
+ZP
+RS
+Ts
 Bm
 "}
 (17,1,1) = {"
@@ -2416,11 +2433,11 @@ nk
 bg
 xz
 Ud
-Ts
-Ts
+aA
+aA
 qi
-Ts
-Ts
+aA
+aA
 sW
 Gi
 Gv
@@ -2433,13 +2450,13 @@ Ts
 aA
 aA
 Ta
-Ts
-Ts
-Ts
+aA
+aA
+aA
 vH
 pE
 ju
-Ts
+aA
 Cj
 ZP
 UY
@@ -2453,13 +2470,13 @@ BS
 ma
 gB
 ca
-Ts
+aA
 pz
 tp
 Ia
 Kt
-Ts
-Ts
+aA
+aA
 aA
 vk
 Kr
@@ -2468,18 +2485,18 @@ Ts
 "}
 (20,1,1) = {"
 Ts
-Ts
+aA
 aA
 jg
 wF
-Ts
+aA
 RN
 mB
 bX
 PU
-Ts
+aA
 Vj
-Ts
+aA
 ii
 GO
 BY
@@ -2491,12 +2508,12 @@ Gy
 ma
 Bu
 WS
-Ts
+aA
 By
 hl
 fo
 cl
-Ts
+aA
 MN
 iX
 Sl
@@ -2506,21 +2523,21 @@ Ts
 "}
 (22,1,1) = {"
 Ce
-Ts
+aA
 aA
 gD
-Ts
-Ts
+aA
+aA
 dv
 Tt
 gs
 DF
-Ts
+aA
 bP
-Ts
+aA
 WE
 aA
-Ts
+aA
 Ce
 "}
 (23,1,1) = {"
@@ -2530,12 +2547,12 @@ hR
 ZU
 cT
 aA
-Ts
+aA
 Ts
 Rf
 aA
-Ts
-Ts
+aA
+aA
 aA
 lO
 RT
@@ -2583,7 +2600,7 @@ Bm
 (26,1,1) = {"
 Bm
 Ts
-Ts
+aA
 bY
 YM
 oR
@@ -2595,7 +2612,7 @@ aA
 Ag
 WM
 Ul
-Ts
+aA
 Ts
 Bm
 "}
