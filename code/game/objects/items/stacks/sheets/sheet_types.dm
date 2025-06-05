@@ -780,3 +780,42 @@ GLOBAL_LIST_INIT(plastic_recipes, list(
 	icon_state = "sheet-saltpetre"
 	item_state = "sheet-saltpetre"
 	origin_tech = "materials=1;biotech=1"
+
+//////////////////////////////
+// MARK: CONCRETE
+//////////////////////////////
+GLOBAL_LIST_INIT(metal_recipes, list(
+
+))
+
+/obj/item/stack/sheet/concrete
+	name = "concrete bricks"
+	desc = "Reinforced concrete. The answer to the age-old question, \"What if we could make our own ugly version of rocks?\""
+	singular_name = "concrete brick"
+	icon_state = "sheet-concrete"
+	materials = list(MAT_METAL = MINERAL_MATERIAL_AMOUNT, MAT_GLASS = MINERAL_MATERIAL_AMOUNT)
+	throwforce = 10.0
+	flags = CONDUCT
+	resistance_flags = FIRE_PROOF
+	merge_type = /obj/item/stack/sheet/concrete
+	point_value = 1
+
+/obj/item/stack/sheet/concrete/examine(mob/user)
+	. = ..()
+	. += "<span class='notice'>Concrete with metal reinforcements is used in various different construction sequences.</span>"
+
+/obj/item/stack/sheet/concrete/examine_more(mob/user)
+	. = ..()
+	. += "Known for its durability, fearlessness and its distinctive butterscotch aroma, concrete is an endlessly useful building material."
+	. += ""
+	. += "Concrete can also be used in a decorative way! This is especially true for those whose eyes have never witnessed anything of beauty in the world."
+
+/obj/item/stack/sheet/concrete/ten
+	amount = 10
+
+/obj/item/stack/sheet/concrete/fifty
+	amount = 50
+
+/obj/item/stack/sheet/metal/Initialize(mapload, new_amount, merge)
+	. = ..()
+	recipes = GLOB.concrete_recipes

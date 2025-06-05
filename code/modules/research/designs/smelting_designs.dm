@@ -53,3 +53,11 @@
 	build_path = /obj/item/stack/sheet/mineral/abductor
 	category = list("Stock Parts")
 	lathe_time_factor = 5
+
+/datum/design/smelter/concrete
+	name = "Concrete"
+	desc = "Glass + Iron"
+	id = "concrete"
+	materials = list(MAT_METAL = MINERAL_MATERIAL_AMOUNT, MAT_GLASS = MINERAL_MATERIAL_AMOUNT)
+	build_path = /obj/item/stack/sheet/concrete
+	category = list("initial")
