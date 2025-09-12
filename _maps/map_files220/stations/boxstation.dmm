@@ -22442,10 +22442,10 @@
 	dir = 1;
 	network = list("Research","SS13")
 	},
-/obj/effect/turf_decal/delivery/blue/hollow,
+/obj/effect/turf_decal/delivery/hollow,
 /turf/simulated/floor/plasteel{
 	dir = 6;
-	icon_state = "whiteblue"
+	icon_state = "whitepurple"
 	},
 /area/station/science/genetics)
 "bIC" = (
@@ -29594,9 +29594,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/plasteel{
-	icon_state = "darkpurplefull"
-	},
+/turf/simulated/floor/plating,
 /area/station/science/genetics)
 "cmF" = (
 /obj/machinery/atmospherics/portable/canister/toxins,
@@ -31947,7 +31945,6 @@
 /area/station/maintenance/apmaint)
 "cwo" = (
 /obj/machinery/dna_scannernew,
-/obj/effect/turf_decal/delivery/blue/hollow,
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "whitepurple"
@@ -33004,7 +33001,7 @@
 	},
 /turf/simulated/floor/plasteel{
 	dir = 4;
-	icon_state = "whitebluecorner"
+	icon_state = "whitepurplecorner"
 	},
 /area/station/science/genetics)
 "cAI" = (
@@ -33067,7 +33064,7 @@
 /obj/item/kirbyplants/large,
 /turf/simulated/floor/plasteel{
 	dir = 9;
-	icon_state = "whiteblue"
+	icon_state = "whitepurple"
 	},
 /area/station/science/hallway)
 "cAT" = (
@@ -33367,7 +33364,7 @@
 "cCf" = (
 /obj/item/kirbyplants/large,
 /turf/simulated/floor/plasteel{
-	icon_state = "whiteblue"
+	icon_state = "whitepurple"
 	},
 /area/station/science/hallway)
 "cCh" = (
@@ -33658,7 +33655,7 @@
 	pixel_y = 9
 	},
 /turf/simulated/floor/plasteel{
-	icon_state = "whiteblue"
+	icon_state = "whitepurple"
 	},
 /area/station/science/genetics)
 "cDw" = (
@@ -47657,7 +47654,7 @@
 /obj/item/radio/intercom/directional/north,
 /turf/simulated/floor/plasteel{
 	dir = 5;
-	icon_state = "whiteblue"
+	icon_state = "whitepurple"
 	},
 /area/station/science/genetics)
 "evw" = (
@@ -61247,7 +61244,7 @@
 /obj/machinery/light/directional/west,
 /turf/simulated/floor/plasteel{
 	dir = 9;
-	icon_state = "whiteblue"
+	icon_state = "whitepurple"
 	},
 /area/station/science/genetics)
 "iYn" = (
@@ -66010,7 +66007,7 @@
 	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
-	icon_state = "whiteblue"
+	icon_state = "whitepurple"
 	},
 /area/station/science/genetics)
 "kBI" = (
@@ -69698,6 +69695,7 @@
 "lNE" = (
 /obj/machinery/light/directional/south,
 /obj/structure/closet/secure_closet/genetics,
+/obj/effect/turf_decal/delivery/hollow,
 /turf/simulated/floor/plasteel{
 	icon_state = "whitepurple"
 	},
@@ -74192,7 +74190,7 @@
 /obj/effect/mapping_helpers/airlock/access/all/medical/genetics,
 /obj/machinery/door/airlock/research,
 /turf/simulated/floor/plasteel{
-	icon_state = "whitebluefull"
+	icon_state = "whitepurplefull"
 	},
 /area/station/science/genetics)
 "nmc" = (
@@ -74608,7 +74606,7 @@
 	},
 /turf/simulated/floor/plasteel{
 	dir = 1;
-	icon_state = "whitebluecorner"
+	icon_state = "whitepurplecorner"
 	},
 /area/station/science/hallway)
 "nrD" = (
@@ -76901,7 +76899,7 @@
 	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
-	icon_state = "whiteblue"
+	icon_state = "whitepurple"
 	},
 /area/station/science/genetics)
 "oeO" = (
@@ -93859,7 +93857,7 @@
 /obj/machinery/computer/scan_consolenew{
 	dir = 8
 	},
-/obj/effect/turf_decal/delivery/blue/hollow,
+/obj/effect/turf_decal/delivery/hollow,
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -96167,7 +96165,7 @@
 	},
 /turf/simulated/floor/plasteel{
 	dir = 4;
-	icon_state = "whiteblue"
+	icon_state = "whitepurple"
 	},
 /area/station/science/genetics)
 "uqE" = (
@@ -97642,13 +97640,13 @@
 "uPA" = (
 /obj/machinery/disposal,
 /obj/machinery/requests_console/directional/west,
-/obj/effect/turf_decal/delivery/blue/hollow,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
+/obj/effect/turf_decal/delivery/hollow,
 /turf/simulated/floor/plasteel{
 	dir = 10;
-	icon_state = "whiteblue"
+	icon_state = "whitepurple"
 	},
 /area/station/science/genetics)
 "uPG" = (
@@ -100049,12 +100047,12 @@
 	pixel_y = 3
 	},
 /obj/item/radio/intercom/directional/west,
-/obj/effect/turf_decal/delivery/blue,
 /obj/machinery/power/apc/directional/south,
 /obj/structure/cable,
+/obj/effect/turf_decal/delivery,
 /turf/simulated/floor/plasteel{
 	dir = 10;
-	icon_state = "whiteblue"
+	icon_state = "whitepurple"
 	},
 /area/station/science/genetics)
 "vEw" = (
@@ -101439,7 +101437,7 @@
 /obj/machinery/computer/scan_consolenew{
 	dir = 4
 	},
-/obj/effect/turf_decal/delivery/blue/hollow,
+/obj/effect/turf_decal/delivery/hollow,
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -101714,7 +101712,7 @@
 /obj/machinery/light/directional/south,
 /obj/machinery/light_switch/south,
 /turf/simulated/floor/plasteel{
-	icon_state = "whiteblue"
+	icon_state = "whitepurple"
 	},
 /area/station/science/genetics)
 "wfP" = (
