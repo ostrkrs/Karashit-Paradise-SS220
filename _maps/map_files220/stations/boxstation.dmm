@@ -74188,9 +74188,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/machinery/door/airlock/science,
 /obj/effect/mapping_helpers/airlock/autoname,
 /obj/effect/mapping_helpers/airlock/access/all/medical/genetics,
+/obj/machinery/door/airlock/research,
 /turf/simulated/floor/plasteel{
 	icon_state = "whitebluefull"
 	},
@@ -87201,12 +87201,12 @@
 /area/station/science/robotics/chargebay)
 "rtA" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/science{
-	id_tag = "GeneticsDoor"
-	},
 /obj/effect/mapping_helpers/airlock/autoname,
 /obj/effect/mapping_helpers/airlock/access/all/science/research,
 /obj/effect/mapping_helpers/airlock/access/all/medical/genetics,
+/obj/machinery/door/airlock/research{
+	id_tag = "GeneticsDoor"
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "whitepurplefull"
 	},
