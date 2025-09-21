@@ -195,7 +195,14 @@
 
 	sex = capitalize(H.gender)
 	age = H.age
-	blood_type = H.dna.blood_type
+	// SS220 EDIT START - RANDOMIZING CHARACTER BLOOD TYPES, SO WE NEED THIS SHIT
+	if(istype(H.dna.species, /datum/species/slime))
+		blood_type = "Slime Jelly"
+	if(istype(H.dna.species, /datum/species/machine))
+		blood_type = "None"
+	else
+		blood_type = H.dna.blood_type
+	// SS220 EDIT END
 	dna_hash = H.dna.unique_enzymes
 	fingerprint_hash = md5(H.dna.uni_identity)
 

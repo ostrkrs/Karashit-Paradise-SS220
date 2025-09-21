@@ -1935,7 +1935,8 @@
 				if(status == "cybernetic")
 					I.robotize()
 
-	character.dna.blood_type = pick(4;"O-", 36;"O+", 3;"A-", 28;"A+", 1;"B-", 20;"B+", 1;"AB-", 5;"AB+") // SS220 EDIT -  RANDOMIZING CHARACTER BLOOD TYPES
+	if(!istype(H.dna.species, /datum/species/slime) || !istype(H.dna.species, /datum/species/machine))
+		character.dna.blood_type = pick(4;"O-", 36;"O+", 3;"A-", 28;"A+", 1;"B-", 20;"B+", 1;"AB-", 5;"AB+") // SS220 EDIT - RANDOMIZING CHARACTER BLOOD TYPES
 
 	// Wheelchair necessary?
 	var/obj/item/organ/external/l_foot = character.get_organ("l_foot")

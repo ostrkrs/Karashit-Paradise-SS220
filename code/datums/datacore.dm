@@ -193,7 +193,14 @@ GLOBAL_VAR_INIT(record_id_num, 1001)
 		var/datum/data/record/M = new()
 		M.fields["id"]			= id
 		M.fields["name"]		= H.real_name
-		M.fields["blood_type"]	= H.dna.blood_type
+		// SS220 EDIT START - RANDOMIZING CHARACTER BLOOD TYPES, SO WE NEED THIS SHIT
+		if(istype(H.dna.species, /datum/species/slime))
+			M.fields["blood_type"]	= "Slime Jelly"
+		if(istype(H.dna.species, /datum/species/machine))
+			M.fields["blood_type"]	= "None"
+		else
+			M.fields["blood_type"]	= H.dna.blood_type
+		// SS220 EDIT END
 		M.fields["b_dna"]		= H.dna.unique_enzymes
 		M.fields["mi_dis"]		= "None"
 		M.fields["mi_dis_d"]	= "No minor disabilities have been declared."
