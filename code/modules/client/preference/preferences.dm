@@ -228,10 +228,12 @@ GLOBAL_LIST_INIT(special_role_times, list(
 			else
 				if(active_character.species == "Slime People")
 					active_character.b_type = "Slime Jelly"
-				else
-					if(active_character.b_type == "None" || active_character.b_type == "Slime Jelly")
-						active_character.b_type = pick(4;"O-", 36;"O+", 3;"A-", 28;"A+", 1;"B-", 20;"B+", 1;"AB-", 5;"AB+")
-					dat += "<b>Тип крови:</b> <a href='byond://?_src_=prefs;preference=b_type;task=input'>[active_character.b_type]</a><br>"
+				// SS220 EDIT START - RANDOMIZING CHARACTER BLOOD TYPES
+				// else
+				// 	if(active_character.b_type == "None" || active_character.b_type == "Slime Jelly")
+				// 		active_character.b_type = pick(4;"O-", 36;"O+", 3;"A-", 28;"A+", 1;"B-", 20;"B+", 1;"AB-", 5;"AB+")
+				// 	dat += "<b>Тип крови:</b> <a href='byond://?_src_=prefs;preference=b_type;task=input'>[active_character.b_type]</a><br>"
+				// SS220 EDIT END
 			if(S.bodyflags & (HAS_SKIN_TONE|HAS_ICON_SKIN_TONE))
 				dat += "<b>Цвет кожи:</b> <a href='byond://?_src_=prefs;preference=s_tone;task=input'>[S.bodyflags & HAS_ICON_SKIN_TONE ? "[active_character.s_tone]" : "[-active_character.s_tone + 35]/220"]</a><br>"
 			dat += "<b>Особенности:</b> <a href='byond://?_src_=prefs;preference=disabilities'>\[Set\]</a><br>"
